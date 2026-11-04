@@ -1,9 +1,13 @@
 // script.js : 내 영화 평점 통계(콘솔판)
-// 작성자 : 전소영  /  이용자 : 여상수
+// 작성자 : 전소영  /  이용자 : 짠청코이(2594067)
 
 const titles = ["극장판 치이카와: 인어 섬의 비밀", "암살자(들)", "실낙원", "타짜: 벨제붑의 노래", "클레이페이스"];
 const ratings = [7.4, 7.2, 8.0, 7.0, 7.5];
 const years = [2026, 2026, 2026, 2026, 2026];
+
+for (let index in tittles) {
+    console.log("영화 $(index);$(titles[index]")
+}
 let sum = 0;
 for (let i = 0; i < ratings.length; i++) {
     sum += ratings[i];
